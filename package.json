@@ -1,0 +1,45 @@
+{
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "name": "curso-webpack-react",
+  "description": "Curso dw webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "*",
+    "css-loader": "^5.2.1",
+    "css-minimizer-webpack-plugin": "^2.0.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.4.1",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LorenzoAB/curso-webpack-react.git"
+  },
+  "keywords": [],
+  "author": "Lorenzo Bautista <lorenzoalejandrob@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LorenzoAB/curso-webpack-react/issues"
+  },
+  "homepage": "https://github.com/LorenzoAB/curso-webpack-react#readme"
+}
